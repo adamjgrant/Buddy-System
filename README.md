@@ -11,14 +11,14 @@ Avoids single words breaking onto the last line of text.
 
 ## Without jQuery
 
-Simply pass in an array of objects into ``buddySystem()``
+Use buddysystem.js and simply pass in an array of objects into ``buddySystem()``
 
     objs = document.getElementsByClassName('corrected')
     buddySystem(objs)
     
 ## With jQuery
 
-Use $.buddySystem() on any element or elements.
+Use buddysystem.jquery.js after jQuery and $.buddySystem() on any element or elements.
 
     $('.corrected').buddySystem()
     
