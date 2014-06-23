@@ -1,0 +1,18 @@
+doctype
+html
+  head
+    link(rel="stylesheet" href="style.css")
+  body
+    h1 BuddySystem Test Page
+    .container.large
+      p The rain in Spain falls mainly on the planes
+    .container.normal
+      p The rain in Spain falls mainly on the planes
+    .container.small
+      p The rain in Spain falls mainly on the planes
+
+    script(src="http://code.jquery.com/jquery-1.11.0.min.js")
+    script(src="buddysystem.jquery.js")
+    script
+      :coffeescript
+        $('p').buddySystem()
