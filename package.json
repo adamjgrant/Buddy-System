@@ -1,0 +1,27 @@
+{
+  "name": "BuddySystem",
+  "version": "1.0.0",
+  "description": "Prevent single words from breaking to a new line.",
+  "main": "buddysystem.jquery.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ajkochanowicz/BuddySystem.git"
+  },
+  "keywords": [
+    "concatenation"
+  ],
+  "author": "Adam Kochanowicz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ajkochanowicz/BuddySystem/issues"
+  },
+  "homepage": "https://github.com/ajkochanowicz/BuddySystem",
+  "devDependencies" : {
+    "coffee-script": "~1.7",
+    "node-sass": "~0.9",
+    "jade": "1"
+  }
+}

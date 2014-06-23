@@ -1,0 +1,9 @@
+.container {
+  border: 1px solid;
+  padding: 15px; }
+  .container.large {
+    width: 350px; }
+  .container.normal {
+    width: 300px; }
+  .container.small {
+    width: 250px; }
