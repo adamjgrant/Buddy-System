@@ -4,11 +4,15 @@ html
     link(rel="stylesheet" href="style.css")
   body
     h1 BuddySystem Test Page
-    .container-large
+    .container.large
       p The rain in Spain falls mainly on the planes
-    .container-normal
+    .container.normal
       p The rain in Spain falls mainly on the planes
-    .container-small
+    .container.small
       p The rain in Spain falls mainly on the planes
 
     script(src="buddysystem.js")
+    script
+      :coffeescript
+        ps = document.querySelectorAll 'p'
+        buddySystem ps
