@@ -1,24 +1,34 @@
-# BuddySystem
+# Buddy-System
 
+#### Created by: [ajkochanowicz](https://github.com/ajkochanowicz)
 #### [Demo](http://codepen.io/ajkochanowicz/pen/mKbtB)
 #### [Demo (jQuery)](http://codepen.io/ajkochanowicz/pen/ezEmp)
 
-![Buddy System](http://getkickstrap.com/1.x/static/buddysystem.png)
-
 Avoids single words breaking onto the last line of text.
+
+# Install
+```
+npm install buddy-system
+```
+
+## Require in node (currently only supported as a jquery plugin)
+```
+var $ = require('jquery');
+require('buddy-system')($); <----- Attaches itself to the jquery object
+```
 
 # Usage
 
 ## Without jQuery
 
-Use buddysystem.js and simply pass in an array of objects into ``buddySystem()``
+Use dist/buddysystem.js and simply pass in an array of objects into ``buddySystem()``
 
     objs = document.getElementsByClassName('corrected')
     buddySystem(objs)
     
 ## With jQuery
 
-Use buddysystem.jquery.js after jQuery and $.buddySystem() on any element or elements.
+Use dist/buddysystem.jquery.js after jQuery and $.buddySystem() on any element or elements.
 
     $('.corrected').buddySystem()
     
@@ -40,3 +50,12 @@ Of course, because ``&nbsp;`` is unicode markup for a non-breaking space, the te
 the plains"
 
 If the line breaks after the last "the".
+
+# Want to contribute?
+```
+git clone https://github.com/olsonpm/buddy-system.git
+cd buddy-system
+npm install
+make test
+// dev your heart out
+```
