@@ -1,24 +1,24 @@
 {
-  "name": "BuddySystem",
+  "name": "buddy-system",
   "version": "1.0.0",
   "description": "Prevent single words from breaking to a new line.",
-  "main": "buddysystem.jquery.js",
+  "main": "dist/buddysystem.jquery.cjs.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ajkochanowicz/BuddySystem.git"
+    "url": "https://github.com/olsonpm/buddy-system.git"
   },
   "keywords": [
-    "concatenation"
+    "buddy-system buddysystem buddy system concatenation"
   ],
   "author": "Adam Kochanowicz",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ajkochanowicz/BuddySystem/issues"
+    "url": "https://github.com/olsonpm/buddy-system/issues"
   },
-  "homepage": "https://github.com/ajkochanowicz/BuddySystem",
+  "homepage": "https://github.com/olsonpm/buddy-system",
   "devDependencies": {
     "chai": "^1.10.0",
     "coffee-script": "~1.7",
