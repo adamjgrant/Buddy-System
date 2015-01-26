@@ -1,6 +1,6 @@
 {
   "name": "buddy-system",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Prevent single words from breaking to a new line.",
   "main": "dist/buddysystem.jquery.cjs.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "url": "https://github.com/olsonpm/buddy-system.git"
   },
   "keywords": [
-    "buddy-system buddysystem buddy system concatenation"
+    "buddy-system buddysystem buddy system concatenation orphan widow"
   ],
   "author": "Adam Kochanowicz",
   "license": "MIT",

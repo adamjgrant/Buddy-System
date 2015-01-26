@@ -3,7 +3,7 @@
   (function($) {
     return $.fn.buddySystem = function() {
       return this.each(function() {
-        return $(this).html($(this).html().replace(new RegExp('((?:[^ ]* ){' + (($(this).html().match(/\s/g) || []).length - 1) + '}[^ ]*) '), "$1&nbsp;"));
+        return jQuery(this).html(jQuery(this).html().substring(0, jQuery(this).html().lastIndexOf(' ')) + '&nbsp;' + jQuery(this).html().substring(jQuery(this).html().lastIndexOf(' ') + 1, jQuery(this).html().length));
       });
     };
   })(jQuery);

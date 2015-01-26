@@ -7,7 +7,7 @@
       o = objs[_i];
       s = String(o.innerHTML);
       if (s) {
-        _results.push(o.innerHTML = s.replace(new RegExp('((?:[^ ]* ){' + ((s.match(/\s/g) || 0).length - 1) + '}[^ ]*) '), "$1&nbsp;"));
+        _results.push(o.innerHTML = s.substring(0, jQuery(this).html().lastIndexOf(' ')) + '&nbsp;' + jQuery(this).html().substring(jQuery(this).html().lastIndexOf(' ') + 1, jQuery(this).html().length));
       } else {
         _results.push(void 0);
       }
