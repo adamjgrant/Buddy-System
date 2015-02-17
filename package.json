@@ -1,6 +1,6 @@
 {
   "name": "buddy-system",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Prevent single words from breaking to a new line.",
   "main": "dist/buddysystem.jquery.cjs.js",
   "scripts": {
