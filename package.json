@@ -1,27 +1,31 @@
 {
-  "name": "BuddySystem",
-  "version": "1.0.0",
+  "name": "buddy-system",
+  "version": "1.0.2",
   "description": "Prevent single words from breaking to a new line.",
-  "main": "buddysystem.jquery.js",
+  "main": "dist/buddysystem.jquery.cjs.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ajkochanowicz/BuddySystem.git"
+    "url": "https://github.com/olsonpm/buddy-system.git"
   },
   "keywords": [
-    "concatenation"
+    "buddy-system buddysystem buddy system concatenation orphan widow"
   ],
   "author": "Adam Kochanowicz",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ajkochanowicz/BuddySystem/issues"
+    "url": "https://github.com/olsonpm/buddy-system/issues"
   },
-  "homepage": "https://github.com/ajkochanowicz/BuddySystem",
-  "devDependencies" : {
+  "homepage": "https://github.com/olsonpm/buddy-system",
+  "devDependencies": {
+    "chai": "^1.10.0",
     "coffee-script": "~1.7",
+    "jade": "1",
+    "jquery": "^2.1.3",
     "node-sass": "~0.9",
-    "jade": "1"
-  }
+    "phantomjs": "^1.9.13"
+  },
+  "dependencies": {}
 }
