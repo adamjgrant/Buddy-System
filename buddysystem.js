@@ -6,6 +6,7 @@
     for (_i = 0, _len = objs.length; _i < _len; _i++) {
       o = objs[_i];
       s = String(o.innerHTML);
+      s.replace(/\s+/g, " ").replace(/^\s|\s$/g, "");
       if (s) {
         _results.push(o.innerHTML = s.replace(new RegExp('((?:[^ ]* ){' + ((s.match(/\s/g) || 0).length - 1) + '}[^ ]*) '), "$1&nbsp;"));
       } else {
