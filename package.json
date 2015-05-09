@@ -19,9 +19,11 @@
     "url": "https://github.com/ajkochanowicz/BuddySystem/issues"
   },
   "homepage": "https://github.com/ajkochanowicz/BuddySystem",
-  "devDependencies" : {
+  "devDependencies": {
     "coffee-script": "~1.7",
+    "jade": "1",
+    "minifier": "^0.6.2",
     "node-sass": "~0.9",
-    "jade": "1"
+    "uglify-js": "^2.4.21"
   }
 }
