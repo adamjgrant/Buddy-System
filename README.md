@@ -1,6 +1,6 @@
 # Buddy-System
 
-#### Created by: [ajkochanowicz](https://github.com/ajkochanowicz)
+#### Created by: [Adam Grant](https://github.com/adamjgrant/)
 #### [Demo](http://codepen.io/ajkochanowicz/pen/mKbtB)
 #### [Demo (jQuery)](http://codepen.io/ajkochanowicz/pen/ezEmp)
 
