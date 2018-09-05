@@ -3,8 +3,6 @@
 #### [Demo](http://codepen.io/ajkochanowicz/pen/mKbtB)
 #### [Demo (jQuery)](http://codepen.io/ajkochanowicz/pen/ezEmp)
 
-![Buddy System](http://getkickstrap.com/1.x/static/buddysystem.png)
-
 Avoids single words breaking onto the last line of text.
 
 # Usage
